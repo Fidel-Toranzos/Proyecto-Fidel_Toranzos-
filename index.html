@@ -4,7 +4,34 @@
             My New WebSite
         </title> 
     </head>
+    <style>
+        body{
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #firts{
+                color: blue;
+        }
+        h4{
+            color: cadetblue;
+        }
+        button{
+            color: white;
+            font-size: 25px;
+            background-color: #0074f8;
+            border-color: transparent;
+            border-radius: 5px;
+        }
+        input{
+            background-color: #79b5fa;
+            color: aliceblue;
+            margin: 5px;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+    </style>
     <body> 
+        <h1 id="firts">Mi PAGINA WEB</h1>
         <h2>Informacion de mi Persona</h2>
         <p>Mi nombre es Fidel Gonzalo Toranzos Escobar<br>
             Naci en cochambaba Bolivia, 3/11/95<br>
@@ -24,5 +51,40 @@
             Lo cual fue el motivo por el querer aprender mas aun en programacion<br>
             Quisiera traer tecnologia a Bolivia
         </p>
+        
+        <form action="">
+            <label>Nombre:</label>
+            <input type="text" placeholder="write here"> <br>
+        <label>Sexo: </label> <br>
+        <label>Mujer</label>
+        <input type="radio" name="gender" id="">
+        <label>Hombre</label>
+        <input type="radio" name="gender" id=""> <br>
+
+        <label>turno: </label> <br>
+        <label>mañana</label>
+        <input type="radio" name="turn" id="">
+        <label>noche</label>
+        <input type="radio" name="turn" id=""> <br>
+
+        <label>materia: </label> <br>
+        <label>programacion</label>
+        <input type="checkbox" name="material" id="">
+        <label>diseño web</label>
+        <input type="checkbox" name="material" id="">
+        <label>taller de programacion</label>
+        <input type="checkbox" name="material" id="">
+        <label>contabilidad</label>
+        <input type="checkbox" name="material" id=""> <br>
+
+        <input type="radio" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="date" name="" id="">
+        <input type="button" value="click">
+        <a href="https://.google.com">google</a>
+        <button disabled="disabled">click</button>
+        <button type="reset">click</button>
+        </form>
+        
     </body>
 </html>
