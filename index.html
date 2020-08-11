@@ -1,143 +1,34 @@
 <html>
     <head>
-        <title>
-            My New WebSite
-        </title> 
+        <title>My New WebSite</title> 
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
-    <style>
-        body{
-            background-color: #8a898d;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        #one{
-                color: blue;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        #two{
-                color: #40cc2d;
-                font-family: 'Courier New', Courier, monospace;
-        }
-        #three{
-            color: #8a2018;
-            font-family: fantasy;
-        }
-        #four{
-            color: #a9be31;
-            font-family: monospace;
-            font-size: 30px;
-        }
-        #form{
-            color: #2e859b;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            font-size: 30px;
-        }
-
-        #parr1{
-            color: rgb(136, 58, 2);
-            font-family: sans-serif;
-        }
-
-        #parr2{
-            color: darkviolet;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-
-        #parr3{
-            color: rgb(37, 255, 146);
-            font-family: initial;
-        }
-
-        #parr4{
-            color: rgb(63, 82, 145);
-            font-family: justify-self: start;;
-        }
-
-        label{
-            color: gold;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 25px;
-        }
-
-        button{
-            color: white;
-            font-size: 25px;
-            background-color: #0074f8;
-            border-color: transparent;
-            border-radius: 5px;
-        }
-        input{
-            background-color: #79b5fa;
-            color: aliceblue;
-            margin: 5px;
-            font-size: 20px;
-            border-radius: 5px;
-        }
-    </style>
     <body> 
-        <h1 id="one">Mi PAGINA WEB</h1>
-        <h2 id="two">---Informacion de mi Persona---</h2>
-        <p id="parr1">Mi nombre es Fidel Gonzalo Toranzos Escobar<br>
+        <div class="tprin colortitle"><h1><u>MI PAGINA WEB</u></h1></div><hr>
+        <div class="tprin colorsubtitle"><h2>---Informacion de mi Persona---</h2></div>
+        <div class="tprin colorparr"><p>Mi nombre es Fidel Gonzalo Toranzos Escobar<br>
             Naci en cochambaba Bolivia, 3/11/95<br>
             Estudie primero Ing electromecanica, de la universidad USIP<br>
             pero actualmente estudio sistemas informaticos en el instituto CIPEC
-        </p><br> <hr>
-        <h2 id="three">---Actividades o Hobby---</h2>
-        <p id="parr2">Los deportes que me gustan son los siguiente:<br>
-            Futbol<br>
-            Natacion<br>
-            Ajedrez<br>
-            Tambien me gusta programar
-        </p><br> <hr>
-        <h2 id="four">---Aspiraciones---</h2>
-        <p id="parr3">Me gustaria estudiar a nivel Maestria, Doctorado en el exterior<br>
+        </p></div><hr>
+        <div class="tprin colorsubtitle"><h2>---Actividades o Hobby---</h2></div>
+        <div class="tprin colorparr"><p>Los deportes que me gustan son los siguiente:<br>
+            <ul>Futbol</ul>
+            <ul>Natacion</ul>
+            <ul>Ajedrez</ul>
+            <ul>Tambien me gusta programar</ul>
+        </p></div><hr>
+        <div class="tprin colorsubtitle"><h2>---Aspiraciones---</h2></div>
+        <div class="tprin colorparr"><p>Me gustaria estudiar a nivel Maestria, Doctorado en el exterior<br>
             Quisiera tener una especialidad en Automatizacion Industrial<br>
             Lo cual fue el motivo por el querer aprender mas aun en programacion<br>
             Quisiera traer tecnologia a Bolivia
-        </p> <hr>
+        </p></div><hr>
         
-        <p id="parr4">Estos tres parrafos indicarian todos lo que se refiere a mi persona, <br> 
-            tanto como datos personales o actividades personales, en los siguientes <br>
-            escritos se realizaran un formulario, realizado por mi persona:  
-        </p> <hr>
-
-        <h1 id="form">FORMULARIO</h1>
-
-        <form action="">
-            <label>Nombre: </label>
-            <input type="text" placeholder="write here"> <br>
-            <label>Apellido: </label>
-            <input type="text" placeholder="write here"> <br>
-            <label>Sexo: </label> 
-            <label>Mujer</label>
-            <input type="radio" name="gender" id="">
-            <label>Hombre</label>
-            <input type="radio" name="gender" id=""> <br>
-
-            <label>Fecha de Nacimiento: </label>
-            <input type="date" name="" id=""> <br>
-
-            <label>Profesion: </label>
-            <label>Estudiante</label>
-            <input type="radio" name="Profesion" id="">
-            <label>Tecnico</label>
-            <input type="radio" name="Profesion" id="">
-            <label>Profesional</label>
-            <input type="radio" name="Profesion" id=""> <br>
-
-            <label>Nivel de Aprendzaje Terminados: </label>
-            <label>Escuela o Colegio</label>
-            <input type="checkbox" name="Grado" id="">
-            <label>Tecnico</label>
-            <input type="checkbox" name="Grado" id="">
-            <label>Universidad</label>
-            <input type="checkbox" name="Grado" id=""> <br>
-
-            <button>Aceptar</button>
-            <button>Cancelar</button> <br>
-
-            <a href="https://.google.com">google</a>
-        </form>
-        
+        <div class="tprin colorparr"><p>A continiacion se realizara una formulario<br>
+            a modo de practica para la materia de Programacion Web 1<br>
+            en el siguiente enlace podra redireccionarse al formulario:<br>
+        </p></div>
+        <div class="link"><a href="form.html">Revisar Formulario de Prueba</a></div><hr>
     </body>
 </html>
