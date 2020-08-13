@@ -1,10 +1,14 @@
 <html>
     <head>
         <title>Formulario</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="javaScript" href="scripts/bootstrap.min.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div class="topnav">
+        <div class="topnav" id="myTopnav">
             <div class="right">
                 <a href="index.html">Home</a>
                 <a href="form.html">Form</a>
@@ -16,6 +20,7 @@
                 <a href="#">Register</a>
                 <a href="#">Login</a>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
         </div>
         <div class="tprin colortitle"><h1><center><u>FORMULARIO DE PRUEBA</u></center></h1></div><hr>
         <form action="">
@@ -80,5 +85,16 @@
         <button>Cancelar</button></center>
         </form>
         
+        <script>
+            function myFunction(){
+                var x = document.getElementById(myTopnav);
+                if(x.className === "topnav"){
+                    x.className += "responsive";
+                } else{
+                    x.document = "topnav";
+                }
+            }
+        </script>
+
     </body>
 </html>
