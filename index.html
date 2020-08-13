@@ -1,15 +1,14 @@
 <html>
     <head>
         <title>My New WebSite</title> 
+        <meta charset="utf-8">
         <link rel="stylesheet" href="styles/styles.css">
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="javaScript" href="scripts/bootstrap.min.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body> 
         <div class="topnav" id="myTopnav">
-        <div class="topnav">
             <div class="right">
                 <a href="index.html">Home</a>
                 <a href="form.html">Form</a>
@@ -21,8 +20,7 @@
                 <a href="#">Register</a>
                 <a href="#">Login</a>
             </div>
-            <!--<a href="javascript:void(0)" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>-->
-        </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
         </div>
         <div class="tprin colortitle"><h1><u>MI PAGINA WEB</u></h1></div><hr>
         <div class="tprin colorsubtitle"><h2>---Informacion de mi Persona---</h2></div>
@@ -55,6 +53,16 @@
             La materia de Diseño y Programacion Web 1 del instituto CIPEC<br>
             Ingrese a la opcion de form del menu principal para acceder al formulario<br>
         </p></div>
-        
+
+        <script>
+            function myFunction(){
+                var x = document.getElementById(myTopnav);
+                if(x.className === "topnav"){
+                    x.className += "responsive";
+                } else{
+                    x.document = "topnav";
+                }
+            }
+        </script>
     </body>
 </html>
